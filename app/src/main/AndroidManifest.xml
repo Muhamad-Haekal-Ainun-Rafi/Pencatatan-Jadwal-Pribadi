@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.haekal.scheduling">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".AppOffline"
+        android:allowBackup="true"
+        android:icon="@mipmap/deadline_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login.LupaPasswordActivity" />
+        <activity android:name=".jadwal_schedule.JadwalActivity" />
+        <activity android:name=".menu_profile.ProfileSetting" />
+        <activity android:name=".menu_profile.ProfileActivity" />
+        <activity android:name=".menu_utama.MenuActivity" />
+        <activity android:name=".jadwal_schedule.AdapterJadwal.CatatanReqAdapterRecyclerView"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".jadwal_schedule.AdapterJadwal.CekTugasReqAdapterRecyclerView"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".jadwal_schedule.Catatan.CatatanListActivity" />
+        <activity android:name=".jadwal_schedule.Catatan.CatatanUpdateActivity" />
+        <activity android:name=".jadwal_schedule.CekTugas.CekTugasListActivity" />
+        <activity android:name=".jadwal_schedule.CekTugas.CekTugasUpdateActivity" />
+        <activity android:name=".jadwal_schedule.Matkul.MatkulActivity" />
+        <activity android:name=".jadwal_schedule.Matkul.MatkulListActivity" />
+        <activity android:name=".jadwal_schedule.Matkul.MatkulUpdateActivity" />
+        <activity android:name=".jadwal_schedule.Semester.SemesterListActivity" />
+        <activity android:name=".jadwal_schedule.Semester.SemesterUpdateActivity" />
+        <activity android:name=".kegiatan_harian.Hari.HariListActivity" />
+        <activity android:name=".kegiatan_harian.Kegiatan.KegiatanUpdateActivity" />
+        <activity android:name=".kegiatan_harian.Kegiatan.KegiatanListActivity" />
+        <activity android:name=".login.SignUpActivity" />
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

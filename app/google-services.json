@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1093636014727",
+    "firebase_url": "https://student-scheduling-app-1b53b.firebaseio.com",
+    "project_id": "student-scheduling-app-1b53b",
+    "storage_bucket": "student-scheduling-app-1b53b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093636014727:android:1e0bf3571294f73d476e22",
+        "android_client_info": {
+          "package_name": "com.haekal.scheduling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093636014727-89m25j4n0rs8qhjcc35ch5ogi1o9i5v7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.haekal.scheduling",
+            "certificate_hash": "c50f7f0d78e3f7c9b30fb767e3ba3a8c3976795b"
+          }
+        },
+        {
+          "client_id": "1093636014727-ob6r8tktgs2prsgtdnfhq4rudq3rmful.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHxkZYZ-WpqBFVtTePe5CsJFt2qUYPlx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093636014727-ob6r8tktgs2prsgtdnfhq4rudq3rmful.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

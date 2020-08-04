@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Student Deadline</string>
+    <string name="login">LOGIN</string>
+    <string name="nama">Nama</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="nim">Nim</string>
+    <string name="txt_target">Tuliskan target dan ambisimu agar bisa kami ingatkan selalu</string>
+    <string name="txt_profil">Perbaharui Profile kamu agar kami mengenalimu</string>
+    <string name="target_goals">Target/Goals</string>
+    <string name="profile_kamu">Profile Kamu</string>
+    <string name="jadwal_schedule">Jadwal/Schedule</string>
+
+</resources>
